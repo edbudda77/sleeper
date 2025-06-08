@@ -1,0 +1,15 @@
+status,type,created,leg,draft_picks,creator,transaction_id,consenter_ids,roster_ids,status_updated,waiver_budget,metadata_notes,settings_seq,settings_waiver_bid,adds_2711,drops_4574,drops_3202,adds_8225,drops_7602,drops,adds_1476,metadata,settings,adds,drops_4335,drops_345,adds_8157,adds_4335,adds_5026,adds_7551,drops_2359
+failed,waiver,1666155167411,6,[],548317142968336384,888322793081810944,[7],[7],1666192038539,[],This player was claimed by another owner.,2.0,11.0,7.0,7.0,,,,,,,,,,,,,,,
+failed,waiver,1666154503751,6,[],595331324689047552,888320009489903616,[9],[9],1666192038539,[],This player was claimed by another owner.,3.0,5.0,9.0,,9.0,,,,,,,,,,,,,,
+complete,waiver,1666153895837,6,[],595421624581287936,888317459713732608,[10],[10],1666192038539,[],Your waiver claim was processed successfully!,8.0,2.0,,,,10.0,10.0,,,,,,,,,,,,
+failed,waiver,1666149421658,6,[],605920336407511040,888298693646872576,[8],[8],1666192038539,[],This player was claimed by another owner.,6.0,2.0,,,,,,,8.0,,,,,,,,,,
+complete,waiver,1666138621761,6,[],594730254984077312,888253395595739136,[4],[4],1666192038539,[],Your waiver claim was processed successfully!,0.0,28.0,4.0,,,,,,,,,,,,,,,,
+failed,waiver,1666137529631,6,[],558483388996636672,888248814870482944,[6],[6],1666192038539,[],This player was claimed by another owner.,5.0,2.0,6.0,,,,,,,,,,,,,,,,
+complete,free_agent,1666137490402,6,[],558483388996636672,888248650332061696,[6],[6],1666137490402,[],,,,,,,,,,,,,,6.0,,,,,,
+complete,waiver,1666137473782,6,[],561747196680642560,888248580622712832,[5],[5],1666192038539,[],Your waiver claim was processed successfully!,1.0,12.0,,,,,,,5.0,,,,,,,,,,
+failed,waiver,1666033348519,6,[],595331324689047552,887811847615700992,[9],[9],1666192038539,[],This player was claimed by another owner.,7.0,2.0,9.0,,,,,,,,,,,9.0,,,,,
+failed,waiver,1665961159978,6,[],594730254984077312,887509066929655808,[4],[4],1666192038539,[],"Unfortunately, your roster will have too many players after this transaction.",4.0,5.0,,,,,,,,,,,,,4.0,,,,
+complete,free_agent,1665940575713,6,[],558483388996636672,887422730264530944,[6],[6],1665940575713,[],,,,,,,,,,,,,,,,,6.0,,,
+complete,free_agent,1665936718538,6,[],451807541647634432,887406552100220928,[1],[1],1665936718538,[],,,,,,,,,,,,,,,,,,1.0,,
+complete,free_agent,1665929194884,6,[],595421624581287936,887374995607842816,[10],[10],1665929194884,[],,,,,,,,,,,,,,,,,,,10.0,
+complete,free_agent,1665579259863,6,[],741144911407095808,885907261749526528,[12],[12],1665579259863,[],,,,,,,,,,,,,,,,,,,,12.0

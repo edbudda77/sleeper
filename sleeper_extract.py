@@ -23,7 +23,8 @@ SAMPLE_SPREADSHEET_ID = "1cVkswp7NckK7kxG0sb1m7qH8siA0dtgFZ6p8zorXimg"
 SAMPLE_RANGE_NAME = "Player Contracts!A5:L"
 
 userid = 'beebudda'
-year = '2025'
+year = '2022'
+leaguename = 'sdff'
 
 def copy_file(source_path, destination_dir):
     """Copies a file to a specified directory.
@@ -64,7 +65,7 @@ def get_value_from_csv(csv_filepath, key_column, year, value_column):
   return None
 
 # Example usage:
-leagueinfo_filepath = 'C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\historical_league_info.csv'
+leagueinfo_filepath = f'C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\{leaguename}\\historical_league_info.csv'
 token = 'C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\token.json'
 credentials = 'C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\credentials.json'
 
@@ -86,7 +87,7 @@ if draftid:
 else:
   print(f"No draftid record found for key '{year}'.")
     
-default_folder = f"C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\Extract\\{year}"
+default_folder = f"C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\{leaguename}\\Extract\\{year}"
 
 # Create output folder
 if not os.path.exists(default_folder):
@@ -335,13 +336,13 @@ sleeper_data(funtiontype='roster',leagueid=leagueid)
 #####Sleeper Single League Users Info#####
 sleeper_data(funtiontype='allusers',leagueid=leagueid)
 #####Sleeper Single League Transactions Info#####
-#sleeper_data(funtiontype='transactions',leagueid=leagueid)
+sleeper_data(funtiontype='transactions',leagueid=leagueid)
 #####Sleeper Single League Matchups Info#####
-#sleeper_data(funtiontype='matchups',leagueid=leagueid)
+sleeper_data(funtiontype='matchups',leagueid=leagueid)
 #####Sleeper Single League Traded Pick Info#####
-sleeper_data(funtiontype='traded_picks',leagueid=leagueid)
+#sleeper_data(funtiontype='traded_picks',leagueid=leagueid)
 #####Sleeper Single League Traded Pick Info#####
-sleeper_data(funtiontype='spread_sheet')
+#sleeper_data(funtiontype='spread_sheet')
 #####Sleeper Single League Draft#####
 sleeper_data(funtiontype='draft',draftid=draftid)
 

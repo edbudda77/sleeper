@@ -1,0 +1,5 @@
+status,type,metadata,created,settings,leg,draft_picks,creator,transaction_id,consenter_ids,roster_ids,status_updated,waiver_budget,adds_8255,drops_9229,drops,adds_6125,adds,drops_8267,drops_6963
+complete,free_agent,,1735404645717,,17,[],862499213718704128,1178776156934316032,[11],[11],1735404645717,[],11.0,11.0,,,,,
+complete,free_agent,,1735403978602,,17,[],862499213718704128,1178773358855397376,[11],[11],1735403978602,[],,,,11.0,,,
+complete,free_agent,,1735341373113,,17,[],741144911407095808,1178510772402462720,[6],[6],1735341373113,[],,,,,,6.0,
+complete,free_agent,,1735137731000,,17,[],741144911407095808,1177656635473338368,[6],[6],1735137731000,[],,,,,,,6.0

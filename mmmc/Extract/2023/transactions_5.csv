@@ -1,0 +1,11 @@
+status,type,created,leg,draft_picks,creator,transaction_id,drops,consenter_ids,roster_ids,status_updated,waiver_budget,metadata_notes,settings_seq,settings_waiver_bid,adds_827,adds_11199,adds_2251,drops_2307,drops_3242,drops_8153,adds_3976,drops_6111
+complete,waiver,1697004892700,5,[],548317142968336384,1017715919260368896,,[7],[7],1697036823342,[],Your waiver claim was processed successfully!,6,4,7.0,,,,,,,
+failed,waiver,1697004860133,5,[],548317142968336384,1017715782664499200,,[7],[7],1697036823342,[],This player was claimed by another owner.,4,7,,7.0,,,,,,
+failed,waiver,1696999426820,5,[],451807541647634432,1017692993697996800,,[1],[1],1697036823342,[],This player was claimed by another owner.,5,6,,,1.0,1.0,,,,
+failed,waiver,1696999380030,5,[],451807541647634432,1017692797446598656,,[1],[1],1697036823342,[],This player was claimed by another owner.,3,14,,1.0,,,1.0,,,
+failed,waiver,1696999123343,5,[],605920336407511040,1017691720823259136,,[8],[8],1697036823342,[],This player was claimed by another owner.,9,2,,,8.0,,,,,
+failed,waiver,1696999112065,5,[],605920336407511040,1017691673519837184,,[8],[8],1697036823342,[],This player was claimed by another owner.,8,2,,8.0,,,,,,
+complete,waiver,1696996146819,5,[],561747196680642560,1017679236376662016,,[5],[5],1697036823342,[],Your waiver claim was processed successfully!,2,22,,,5.0,,,,,
+complete,waiver,1696996099976,5,[],561747196680642560,1017679039902900224,,[5],[5],1697036823342,[],Your waiver claim was processed successfully!,0,60,,5.0,,,,,,
+failed,waiver,1696979147670,5,[],594730254984077312,1017607936778027008,,[4],[4],1697036823342,[],This player was claimed by another owner.,7,4,,4.0,,,,4.0,,
+complete,waiver,1696403425289,5,[],595421624581287936,1015193182092546048,,[10],[10],1696432037809,[],Your waiver claim was processed successfully!,0,7,,,,,,,10.0,10.0

@@ -10,12 +10,13 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 
 userid = 'beebudda'
 week = 0
-year = '2025'
+year = '2024'
 last_year_of_contracts = 2028
+leaguename = 'mmmc'
 
 # Example usage:
-default_folder = f"C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\Extract\\{year}"
-leagueinfo_filepath = 'C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\historical_league_info.csv'
+default_folder = f"C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\{leaguename}\\Extract\\{year}"
+leagueinfo_filepath = f'C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\{leaguename}\\historical_league_info.csv'
 token = 'C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\token.json'
 credentials = 'C:\\Users\\Ezekiel Budda\\Desktop\\Python\\sleeper\\credentials.json'
 

@@ -1,0 +1,10 @@
+status,type,metadata,created,settings,leg,creator,draft_picks,transaction_id,adds,consenter_ids,roster_ids,status_updated,waiver_budget,drops_1244,drops,metadata_notes,settings_seq,settings_waiver_bid,adds_4152,adds_6794,adds_7538,adds_7593,drops_6794,drops_7538,drops_7593,drops_4152,drops_5046,adds_4054,adds_1737,adds_6694
+complete,free_agent,,1635261218612,,7,472136033526345728,[],758744180058198016,,[3],[3],1635261218612,[],3.0,,,,,,,,,,,,,,,,
+complete,waiver,,1635218585459,,7,561715408029736960,[],758565363654209536,,[2],[2],1635347234115,[],,,Your waiver claim was processed successfully!,0.0,5.0,2.0,,,,,,,,,,,
+complete,trade,,1635214965658,,7,451807541647634432,"[{'round': 2, 'season': '2023', 'league_id': None, 'roster_id': 1, 'owner_id': 3, 'previous_owner_id': 1}, {'round': 1, 'season': '2022', 'league_id': None, 'roster_id': 3, 'owner_id': 1, 'previous_owner_id': 3}, {'round': 1, 'season': '2023', 'league_id': None, 'roster_id': 8, 'owner_id': 1, 'previous_owner_id': 3}]",758550181108207616,,"[1, 3]","[1, 3]",1635215807712,[],,,,,,,3.0,1.0,3.0,1.0,3.0,1.0,,,,,
+complete,free_agent,,1635091675845,,7,595331324689047552,[],758033066152361984,,[9],[9],1635091675845,[],,,,,,,,,,,,,9.0,,,,
+complete,free_agent,,1635053722184,,7,548317142968336384,[],757873876960219136,,[7],[7],1635053722184,[],,,,,,,,,,,,,,7.0,,,
+complete,free_agent,,1634818416841,,7,607649560164122624,[],756886934818828288,,[12],[12],1634818416841,[],,,,,,,,,,,,,,,12.0,,
+failed,waiver,,1634740796664,,7,594730254984077312,[],756561372200001536,,[4],[4],1634742427624,[],,,This player was claimed by another owner.,4.0,2.0,,,,,,,,,,,4.0,
+complete,waiver,,1634740752146,,7,605920336407511040,[],756561185477906432,,[8],[8],1634742427624,[],,,Your waiver claim was processed successfully!,3.0,2.0,,,,,,,,,,,8.0,
+failed,waiver,,1634734274836,,7,561715408029736960,[],756534017670623232,,[2],[2],1634742427624,[],,,This player was claimed by another owner.,1.0,7.0,,,,,,,,,,,,2.0

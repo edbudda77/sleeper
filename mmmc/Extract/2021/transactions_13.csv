@@ -1,0 +1,13 @@
+status,type,created,leg,draft_picks,creator,transaction_id,consenter_ids,roster_ids,status_updated,waiver_budget,metadata_notes,settings_seq,settings_waiver_bid,adds_7066,drops_6824,drops,adds_2359,adds_6960,adds_2476,metadata,settings,adds,drops_3257,adds_6074,adds_7720,drops_2391,adds_4531,drops_5131,adds_5985
+complete,waiver,1638948392362,13,[],595331324689047552,774209307666456576,[9],[9],1638979623278,[],Your waiver claim was processed successfully!,0.0,25.0,9.0,9.0,,,,,,,,,,,,,,
+failed,waiver,1638919651522,13,[],607649560164122624,774088759846248448,[12],[12],1638979623278,[],This player was claimed by another owner.,7.0,0.0,12.0,,,,,,,,,,,,,,,
+complete,waiver,1638919639941,13,[],607649560164122624,774088711272009728,[12],[12],1638979623278,[],Your waiver claim was processed successfully!,6.0,0.0,,,,12.0,,,,,,,,,,,,
+complete,waiver,1638914789500,13,[],451807541647634432,774068367047974912,[1],[1],1638979623278,[],Your waiver claim was processed successfully!,4.0,2.0,,,,,1.0,,,,,,,,,,,
+complete,waiver,1638914198464,13,[],595421624581287936,774065888063254528,[10],[10],1638979623278,[],Your waiver claim was processed successfully!,5.0,1.0,,,,,,10.0,,,,,,,,,,
+complete,free_agent,1638914034592,13,[],595421624581287936,774065200734310400,[10],[10],1638914034592,[],,,,,,,,,,,,,10.0,,,,,,
+complete,waiver,1638911248485,13,[],451807541647634432,774053514954579968,[1],[1],1638979623278,[],Your waiver claim was processed successfully!,3.0,2.0,,,,,,,,,,,1.0,,,,,
+complete,waiver,1638911113307,13,[],451807541647634432,774052947976970240,[1],[1],1638979623278,[],Your waiver claim was processed successfully!,2.0,2.0,,,,,,,,,,,,1.0,,,,
+complete,free_agent,1638850400700,13,[],558483388996636672,773798300846571520,[6],[6],1638850400700,[],,,,,,,,,,,,,,,,6.0,,,
+complete,waiver,1638805385671,13,[],561715408029736960,773609494130401280,[2],[2],1638979623278,[],Your waiver claim was processed successfully!,1.0,4.0,,,,,,,,,,,,,,2.0,,
+complete,free_agent,1638659705667,13,[],605920336407511040,772998467906899968,[8],[8],1638659705667,[],,,,,,,,,,,,,,,,,,8.0,
+complete,free_agent,1638481307209,13,[],451807541647634432,772250210540826624,[1],[1],1638481307209,[],,,,,,,,,,,,,,,,,,,1.0

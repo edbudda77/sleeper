@@ -1,0 +1,14 @@
+status,type,created,leg,draft_picks,creator,transaction_id,drops,consenter_ids,roster_ids,status_updated,waiver_budget,metadata_notes,settings_seq,settings_waiver_bid,adds_6753,adds_184,adds_6843,adds_4198,adds_5089,metadata,settings,adds,drops_4150,adds_4892,adds_5248,adds_6130,drops_4892,drops_5248,drops_6130,drops_7064,drops_4455,drops_6823
+complete,waiver,1635902421263,8,[],605920336407511040,761433578902044672,,[8],[8],1635952022736,[],Your waiver claim was processed successfully!,9.0,2.0,8.0,,,,,,,,,,,,,,,,,
+failed,waiver,1635902415067,8,[],605920336407511040,761433552914108416,,[8],[8],1635952022736,[],This player was claimed by another owner.,8.0,2.0,,8.0,,,,,,,,,,,,,,,,
+complete,waiver,1635872042264,8,[],561715408029736960,761306160144973824,,[2],[2],1635952022736,[],Your waiver claim was processed successfully!,11.0,2.0,,,2.0,,,,,,,,,,,,,,,
+complete,waiver,1635871514401,8,[],561715408029736960,761303946127142912,,[2],[2],1635952022736,[],Your waiver claim was processed successfully!,7.0,3.0,,,,2.0,,,,,,,,,,,,,,
+complete,waiver,1635828656011,8,[],472136033526345728,761124185006297088,,[3],[3],1635952022736,[],Your waiver claim was processed successfully!,1.0,16.0,,,,,3.0,,,,,,,,,,,,,
+complete,waiver,1635828239318,8,[],472136033526345728,761122437273374720,,[3],[3],1635952022736,[],Your waiver claim was processed successfully!,0.0,18.0,,3.0,,,,,,,,,,,,,,,,
+failed,waiver,1635794300815,8,[],595464158774878208,760980088874520576,,[11],[11],1635952022736,[],This player was claimed by another owner.,2.0,13.0,,11.0,,,,,,,,,,,,,,,,
+failed,waiver,1635712762324,8,[],605920336407511040,760638091655680000,,[8],[8],1635952022736,[],This player was claimed by another owner.,6.0,4.0,,,,,8.0,,,,,,,,,,,,,
+complete,free_agent,1635688246949,8,[],605920336407511040,760535266720071680,,[8],[8],1635688246949,[],,,,,,,,,,,,8.0,,,,,,,,,
+complete,trade,1635553388842,8,"[{'round': 1, 'season': '2023', 'league_id': None, 'roster_id': 11, 'owner_id': 1, 'previous_owner_id': 11}]",451807541647634432,759969630822551552,,"[1, 11]","[1, 11]",1635553453057,[],,,,,,,,,,,,,11.0,1.0,1.0,1.0,11.0,11.0,,,
+complete,free_agent,1635464233071,8,[],595331324689047552,759595684415782912,,[9],[9],1635464233071,[],,,,,,,,,,,,,,,,,,,9.0,,
+complete,free_agent,1635345934080,8,[],451807541647634432,759099502484414464,,[1],[1],1635345934080,[],,,,,,,,,,,,,,,,,,,,1.0,
+complete,free_agent,1635345877881,8,[],451807541647634432,759099266768683008,,[1],[1],1635345877881,[],,,,,,,,,,,,,,,,,,,,,1.0

@@ -1,0 +1,15 @@
+status,type,created,leg,draft_picks,creator,transaction_id,consenter_ids,roster_ids,status_updated,waiver_budget,metadata_notes,settings_seq,settings_waiver_bid,adds_8206,drops_9506,adds_829,drops_6149,adds_7083,drops_5096,adds_4993,drops_7593,drops,adds_7049,drops_1992,adds_4098,adds_7562,metadata,settings,adds_7002,adds_1339,drops_5133,adds_5185
+complete,waiver,1726635742259,2,[],595331324689047552,1141996710089109504,[9],[9],1726668522440,[],Your waiver claim was processed successfully!,1.0,38.0,9.0,9.0,,,,,,,,,,,,,,,,,
+complete,waiver,1726635593814,2,[],595331324689047552,1141996087465799680,[9],[9],1726668522440,[],Your waiver claim was processed successfully!,0.0,65.0,,,9.0,9.0,,,,,,,,,,,,,,,
+failed,waiver,1726632323530,2,[],451807541647634432,1141982370900443136,[1],[1],1726668522440,[],This player was claimed by another owner.,13.0,2.0,,,,,1.0,1.0,,,,,,,,,,,,,
+failed,waiver,1726632270297,2,[],451807541647634432,1141982147625185280,[1],[1],1726668522440,[],This player was claimed by another owner.,8.0,4.0,,,,,,,1.0,1.0,,,,,,,,,,,
+complete,waiver,1726625779020,2,[],561747196680642560,1141954921235963904,[5],[5],1726668522440,[],Your waiver claim was processed successfully!,3.0,11.0,,,,,,,,,,5.0,,,,,,,,,
+failed,waiver,1726625727971,2,[],561747196680642560,1141954707120902144,[5],[5],1726668522440,[],This player was claimed by another owner.,2.0,12.0,,,5.0,,,,,,,,,,,,,,,,
+failed,waiver,1726596698884,2,[],594730254984077312,1141832950305226752,[4],[4],1726668522440,[],This player was claimed by another owner.,7.0,5.0,,,4.0,,,,,,,,4.0,,,,,,,,
+complete,waiver,1726595619117,2,[],594730254984077312,1141828421434232832,[4],[4],1726668522440,[],Your waiver claim was processed successfully!,6.0,5.0,,,,,,,,,,,,4.0,,,,,,,
+failed,waiver,1726590663154,2,[],561747196680642560,1141807634618744832,[5],[5],1726668522440,[],This player was claimed by another owner.,5.0,8.0,,,,,,,,,,5.0,,,,,,,,,
+complete,waiver,1726513838596,2,[],1068706773223223296,1141485409067929600,[8],[8],1726668522440,[],Your waiver claim was processed successfully!,14.0,2.0,,,,,,,,,,,,,8.0,,,,,,
+complete,waiver,1726513832876,2,[],1068706773223223296,1141485385076314112,[8],[8],1726668522440,[],Your waiver claim was processed successfully!,9.0,4.0,,,,,8.0,,,,,,,,,,,,,,
+complete,free_agent,1726377152875,2,[],1068706773223223296,1140912107601383424,[8],[8],1726377152875,[],,,,,,,,,,,,,,,,,,,8.0,,,
+complete,free_agent,1726356068378,2,[],595421624581287936,1140823672811278336,[10],[10],1726356068378,[],,,,,,,,,,,,,,,,,,,,10.0,10.0,
+complete,free_agent,1726063887557,2,[],548317142968336384,1139598177625030656,[7],[7],1726063887557,[],,,,,,,,,,,,,,,,,,,,,,7.0

@@ -1,0 +1,11 @@
+status,type,created,leg,draft_picks,creator,transaction_id,drops,consenter_ids,roster_ids,status_updated,waiver_budget,metadata_notes,settings_seq,settings_waiver_bid,adds_11256,adds_4381,drops_3242,metadata,settings,adds,drops_5917,adds_8157,drops_5089,drops_8153,drops_6149,adds_4335,drops_6920,adds_11199
+failed,waiver,1697604334989,6,[],548317142968336384,1020230162450952192,,[7],[7],1697641634808,[],This player was claimed by another owner.,3.0,5.0,7.0,,,,,,,,,,,,,
+failed,waiver,1697586016854,6,[],451807541647634432,1020153330624028672,,[1],[1],1697641634808,[],"Unfortunately, your roster will have too many players after this transaction.",2.0,7.0,,1.0,1.0,,,,,,,,,,,
+complete,waiver,1697585953811,6,[],451807541647634432,1020153066202443776,,[1],[1],1697641634808,[],Your waiver claim was processed successfully!,0.0,8.0,1.0,,1.0,,,,,,,,,,,
+complete,free_agent,1697565088876,6,[],558483388996636672,1020065552322093056,,[6],[6],1697565088876,[],,,,,,,,,,6.0,,,,,,,
+complete,free_agent,1697379990103,6,[],741144911407095808,1019289191798247424,,[12],[12],1697379990103,[],,,,,,,,,,,12.0,12.0,,,,,
+complete,free_agent,1697373354414,6,[],594730254984077312,1019261359701331968,,[4],[4],1697373354414,[],,,,,,,,,,,,,4.0,,,,
+complete,free_agent,1697368013630,6,[],595421624581287936,1019238958829490176,,[10],[10],1697368013630,[],,,,,,,,,,,,,,10.0,,,
+complete,free_agent,1697345326798,6,[],558483388996636672,1019143803359285248,,[6],[6],1697345326798,[],,,,,,,,,,,,,,,6.0,,
+complete,free_agent,1697152756053,6,[],595331324689047552,1018336103113396224,,[9],[9],1697152756053,[],,,,,,,,,,,,,,,,9.0,
+failed,waiver,1697009406816,6,[],595421624581287936,1017734852835160064,,[10],[10],1697036823342,[],This player was claimed by another owner.,1.0,25.0,,,,,,,,,,,10.0,,,10.0

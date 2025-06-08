@@ -1,0 +1,7 @@
+status,type,created,leg,draft_picks,creator,transaction_id,consenter_ids,roster_ids,status_updated,waiver_budget,metadata_notes,settings_seq,settings_waiver_bid,adds_3200,drops_5096,metadata,settings,adds,drops_3225,adds_4972,drops_7567,adds_8154,drops_8154,drops,adds_11748,adds_6694,drops_8168
+complete,waiver,1729654323716,7,[],451807541647634432,1154657558368583680,[1],[1],1729692538827,[],Your waiver claim was processed successfully!,0.0,22.0,1.0,1.0,,,,,,,,,,,,
+complete,free_agent,1729389144680,7,[],561747196680642560,1153545316877053952,[5],[5],1729389144680,[],,,,,,,,,5.0,,,,,,,,
+complete,free_agent,1729371903773,7,[],594730254984077312,1153473003271860224,[4],[4],1729371903773,[],,,,,,,,,,4.0,4.0,,,,,,
+complete,trade,1729278631385,7,"[{'round': 2, 'season': '2026', 'league_id': None, 'roster_id': 2, 'owner_id': 7, 'previous_owner_id': 2}, {'round': 2, 'season': '2025', 'league_id': None, 'roster_id': 7, 'owner_id': 7, 'previous_owner_id': 2}]",548317142968336384,1153081790522064896,"[2, 7]","[2, 7]",1729278837844,[],,,,,,,,,,,,2.0,7.0,,,,
+complete,free_agent,1729196782565,7,[],561715408029736960,1152738491688660992,[2],[2],1729196782565,[],,,,,,,,,,,,,,,2.0,,
+complete,free_agent,1729100123853,7,[],594730254984077312,1152333075666284544,[4],[4],1729100123853,[],,,,,,,,,,,,,,,,4.0,4.0

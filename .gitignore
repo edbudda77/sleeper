@@ -1,5 +1,5 @@
 /*.pdf
 /test
 /Extract/*
-/credentials*
-/token*
+*credentials*
+*token*

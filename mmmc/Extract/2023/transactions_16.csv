@@ -1,0 +1,5 @@
+status,type,created,leg,draft_picks,creator,transaction_id,consenter_ids,roster_ids,status_updated,waiver_budget,metadata_notes,settings_seq,settings_waiver_bid,adds_5970,drops_5122,adds_3286,metadata,settings,adds,drops_6659,adds_9486,drops_1535
+failed,waiver,1703565157311,16,[],561715408029736960,1045231663359528960,[2],[2],1703693223178,[],"Unfortunately, your roster will have too many players after this transaction.",2.0,3.0,2.0,2.0,,,,,,,
+complete,waiver,1703564994079,16,[],561715408029736960,1045230978714968064,[2],[2],1703693223178,[],Your waiver claim was processed successfully!,1.0,3.0,,2.0,2.0,,,,,,
+complete,free_agent,1703436098415,16,[],561715408029736960,1044690351115698176,[2],[2],1703436098415,[],,,,,,,,,,2.0,,
+complete,waiver,1703076115417,16,[],595421624581287936,1043180472987136000,[10],[10],1703088456876,[],Your waiver claim was processed successfully!,1.0,16.0,,,,,,,,10.0,10.0

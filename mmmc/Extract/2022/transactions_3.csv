@@ -1,0 +1,10 @@
+status,type,created,leg,draft_picks,creator,transaction_id,consenter_ids,roster_ids,status_updated,waiver_budget,metadata_notes,settings_seq,settings_waiver_bid,adds_345,drops_6870,drops,adds_5970,metadata,settings_is_counter,adds_4034,drops_4034,settings,adds_490,adds_829,adds_4152,drops_2431,adds,drops_7496,drops_2214
+complete,waiver,1664344978131,3,[],595331324689047552,880730308943802368,[9],[9],1664377643665,[],Your waiver claim was processed successfully!,0.0,4.0,9.0,9.0,,,,,,,,,,,,,,
+complete,waiver,1664342139002,3,[],548317142968336384,880718400773640192,[7],[7],1664377643665,[],Your waiver claim was processed successfully!,1.0,4.0,,,,7.0,,,,,,,,,,,,
+failed,waiver,1664250266333,3,[],558483388996636672,880333058870837248,[6],[6],1664377643665,[],This player was claimed by another owner.,2.0,2.0,6.0,,,,,,,,,,,,,,,
+complete,trade,1664233660240,3,"[{'round': 1, 'season': '2023', 'league_id': None, 'roster_id': 2, 'owner_id': 6, 'previous_owner_id': 2}, {'round': 2, 'season': '2024', 'league_id': None, 'roster_id': 2, 'owner_id': 6, 'previous_owner_id': 2}]",558483388996636672,880263407868669952,"[2, 6]","[2, 6]",1664236544235,[],,,,,,,,,1.0,2.0,6.0,,,,,,,,
+complete,free_agent,1663963608484,3,[],594730254984077312,879130728707813376,[4],[4],1663963608484,[],,,,,,,,,,,,,4.0,,,,,,
+complete,free_agent,1663883042098,3,[],595421624581287936,878792808792870912,[10],[10],1663883042098,[],,,,,,,,,,,,,,10.0,,,,,
+complete,free_agent,1663819778913,3,[],595331324689047552,878527463762890752,[9],[9],1663819778913,[],,,,,,,,,,,,,,,9.0,9.0,,,
+complete,free_agent,1663797242021,3,[],594730254984077312,878432937186729984,[4],[4],1663797242021,[],,,,,,,,,,,,,,,,,,4.0,
+complete,free_agent,1663796546753,3,[],594730254984077312,878430021021421568,[4],[4],1663796546753,[],,,,,,,,,,,,,,,,,,,4.0

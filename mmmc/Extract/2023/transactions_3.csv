@@ -1,0 +1,7 @@
+status,type,created,leg,draft_picks,creator,transaction_id,consenter_ids,drops,roster_ids,status_updated,waiver_budget,metadata_notes,settings_seq,settings_waiver_bid,adds_2711,metadata,settings,adds_5121,drops_6869,adds_6111,drops_5052,adds_829,drops_8800,adds_8756,adds,drops_11370
+complete,waiver,1695795382988,3,[],595331324689047552,1012642867837308928,[9],,[9],1695827237852,[],Your waiver claim was processed successfully!,0.0,2.0,9.0,,,,,,,,,,,
+complete,free_agent,1695566103242,3,[],595421624581287936,1011681198881460224,[10],,[10],1695566103242,[],,,,,,,10.0,10.0,,,,,,,
+complete,free_agent,1695488408817,3,[],595421624581287936,1011355324843900928,[10],,[10],1695488408817,[],,,,,,,,,10.0,10.0,,,,,
+complete,free_agent,1695324373295,3,[],594730254984077312,1010667309997838336,[4],,[4],1695324373295,[],,,,,,,,,,,4.0,4.0,,,
+complete,free_agent,1695256303218,3,[],605920336407511040,1010381803401596928,[8],,[8],1695256303218,[],,,,,,,,,,,,,8.0,,
+complete,free_agent,1695217774375,3,[],595421624581287936,1010220201721286656,[10],,[10],1695217774375,[],,,,,,,,,,,,,,,10.0
