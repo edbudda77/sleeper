@@ -1,6 +1,7 @@
 import requests
 import pandas as pd
 import json
+import numpy as np
 import csv
 import os
 import os.path
@@ -10,8 +11,8 @@ from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 
 userid = 'beebudda'
 week = 0
-year = '2024'
-last_year_of_contracts = 2028
+year = '2025'
+last_year_of_contracts = '2028'
 leaguename = 'mmmc'
 
 # Example usage:
@@ -176,12 +177,24 @@ def sleeper_transform(funtiontype,userid=None,leagueid=None,week=None,last_year_
       # Displays the first few rows of the DataFrame
       pd.set_option('display.max_columns', None)
       start_col_name = 'Owner'
-      end_col_name = f'{last_year_of_contracts}'
+      end_col_name = f'1 or 2 years?'
       new_df = df.loc[:, start_col_name:end_col_name]
-      #columns_to_keep = ['Owner','Length Remaining','Acquired','Year of Contract','Pos','Player','Per Year $ (In M)','2025','2026','2027','2028']
-      #new_df = df[columns_to_keep]
       new_df = new_df.rename(columns={'Year of Contract': 'Year_of_Contract', 'Player': 'full_name', 'Per Year $ (In M)': 'Per_Year_M', 'Length Remaining': 'Length_Remaining'})
+      new_df[['Owner', 'player_type']] = new_df['Owner'].str.split('-', expand=True)
+      new_df['player_type'] = new_df['player_type'].fillna('  ')
       new_df['full_name'] = new_df['full_name'].str.replace(r"\[|'|\]", '', regex=True).str.strip()
+      #Update contract values.
+      selected_columns = [new_df.columns[7], new_df.columns[8], new_df.columns[9], new_df.columns[10]]
+      i = 0
+      for column_name in selected_columns:
+          i = i + 1
+          print(i)
+          if i < 4:
+             new_df[f'{column_name}'] = np.where(new_df['player_type'] == 'Cut', new_df[f'{column_name}.1'], new_df[f'{column_name}'])
+             new_df[f'{column_name}'] = new_df[f'{column_name}'].fillna('  ')
+          elif i == 4:
+             new_df[f'{column_name}'] = np.where(new_df['player_type'] == 'Cut', 0, new_df[f'{column_name}'])
+             new_df[f'{column_name}'] = new_df[f'{column_name}'].fillna('  ')
       
       print(f"******** {funtiontype} Start ********")
       print(new_df.head())
@@ -238,6 +251,14 @@ runplayerdata_df = sleeper_transform(funtiontype='runplayerdata',leagueid=league
 allusers_df = sleeper_transform(funtiontype='allusers',leagueid=leagueid)
 spreadsheet_df = sleeper_transform(funtiontype='spreadsheet',leagueid=leagueid,last_year_of_contracts=last_year_of_contracts)
 
+spreadsheet_df.to_csv(f"spreadsheet_df.csv", index=False)
+
+filtered_spreadsheet_df = spreadsheet_df[spreadsheet_df['player_type'] == 'Cut']
+
+print('******** filtered_spreadsheet_df Start ********')
+print(filtered_spreadsheet_df.head)
+print('******** filtered_spreadsheet_df End ********')
+
 cols_to_keep_runplayerdata_df = ['fantasy_positions','full_name','status','active','age','player_id']
 
 merged_df = roster_df.merge(runplayerdata_df[cols_to_keep_runplayerdata_df]
@@ -261,7 +282,8 @@ print('******** merged_df2 End ********')
 start_col_name = 'Owner'
 end_col_name = f'{last_year_of_contracts}'
 
-cols_to_keep_spreadsheet_df = spreadsheet_df.loc[:, start_col_name:end_col_name]
+#cols_to_keep_spreadsheet_df = spreadsheet_df.loc[:, start_col_name:end_col_name]
+cols_to_keep_spreadsheet_df = spreadsheet_df.loc[:, start_col_name:]
 
 print('******** test Start ********')
 print(cols_to_keep_spreadsheet_df)
@@ -272,7 +294,9 @@ print('******** test end ********')
 
 merged_df3 = merged_df2.merge(cols_to_keep_spreadsheet_df
                             ,on='full_name'
-                            ,how='left')
+                            ,how='outer')
+
+merged_df3 = merged_df3.drop([merged_df3.columns[21],merged_df3.columns[22],merged_df3.columns[23],merged_df3.columns[24],merged_df3.columns[25]], axis='columns')
 
 print('******** merged_df3 Start ********')
 print(merged_df3.head)

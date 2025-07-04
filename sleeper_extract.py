@@ -20,11 +20,11 @@ from googleapiclient.errors import HttpError
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets.readonly"]
 # The ID and range of a sample spreadsheet.
 SAMPLE_SPREADSHEET_ID = "1cVkswp7NckK7kxG0sb1m7qH8siA0dtgFZ6p8zorXimg"
-SAMPLE_RANGE_NAME = "Player Contracts!A5:L"
+SAMPLE_RANGE_NAME = "Player Contracts!A5:P"
 
 userid = 'beebudda'
-year = '2022'
-leaguename = 'sdff'
+year = '2025'
+leaguename = 'mmmc'
 
 def copy_file(source_path, destination_dir):
     """Copies a file to a specified directory.
@@ -272,9 +272,11 @@ def sleeper_data(funtiontype,userid=None,leagueid=None,week=None,draftid=None):
       print(F'{funtiontype} info out')
 
    elif funtiontype == 'traded_picks' and leagueid is None:
+       
       print('Please provide leagueid')
 
    elif funtiontype == 'spread_sheet':
+       
       """Shows basic usage of the Sheets API.
       Prints values from a sample spreadsheet.
       """
@@ -336,13 +338,13 @@ sleeper_data(funtiontype='roster',leagueid=leagueid)
 #####Sleeper Single League Users Info#####
 sleeper_data(funtiontype='allusers',leagueid=leagueid)
 #####Sleeper Single League Transactions Info#####
-sleeper_data(funtiontype='transactions',leagueid=leagueid)
+#sleeper_data(funtiontype='transactions',leagueid=leagueid)
 #####Sleeper Single League Matchups Info#####
-sleeper_data(funtiontype='matchups',leagueid=leagueid)
+#sleeper_data(funtiontype='matchups',leagueid=leagueid)
 #####Sleeper Single League Traded Pick Info#####
 #sleeper_data(funtiontype='traded_picks',leagueid=leagueid)
 #####Sleeper Single League Traded Pick Info#####
-#sleeper_data(funtiontype='spread_sheet')
+sleeper_data(funtiontype='spread_sheet')
 #####Sleeper Single League Draft#####
 sleeper_data(funtiontype='draft',draftid=draftid)
 

@@ -17,12 +17,12 @@
   "adds": {
    "8195": 1
   },
-  "drops": {
-   "8117": 1
-  },
   "consenter_ids": [
    1
   ],
+  "drops": {
+   "8117": 1
+  },
   "roster_ids": [
    1
   ],
@@ -42,12 +42,12 @@
   "adds": {
    "8208": 5
   },
-  "drops": {
-   "9480": 5
-  },
   "consenter_ids": [
    5
   ],
+  "drops": {
+   "9480": 5
+  },
   "roster_ids": [
    5
   ],
