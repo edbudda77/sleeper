@@ -1,4 +1,17 @@
-def sleeper_data(funtiontype,userid=None,leagueid=None,week=None,draftid=None):
+import requests
+from requests import Request, Session
+from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
+import pandas as pd
+import json
+import csv
+import os
+from google.auth.transport.requests import Request
+from google.oauth2.credentials import Credentials
+from google_auth_oauthlib.flow import InstalledAppFlow
+from googleapiclient.discovery import build
+from googleapiclient.errors import HttpError
+
+def sleeper_data(funtiontype,userid=None,leagueid=None,week=None,draftid=None,SCOPES=None,SAMPLE_SPREADSHEET_ID=None,SAMPLE_RANGE_NAME=None):
 
    if funtiontype == 'runplayerdata':
         
